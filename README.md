@@ -33,7 +33,7 @@ The compilation of the package happens in `runFromOptions`. Using `const time = 
 Once you've added the necessary time markers, to start an incremental build run:
 
 ```
-ibazel build :app
+ibazel build --strategy=TypeScriptCompile=worker :app
 ```
 
 Update any file in `src/**/*.ts` or `src/*.ts`.
