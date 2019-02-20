@@ -1,4 +1,10 @@
-/bazel-*
-/node_modules
-/src
-/dist
+node_modules
+typings
+dist
+.idea
+npm-debug.log
+.vscode
+*.log
+src
+bazel-*
+
