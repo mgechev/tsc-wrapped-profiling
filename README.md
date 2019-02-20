@@ -18,6 +18,8 @@ Generate a project with 1000 files using:
 npm run generate-1000
 ```
 
+This command will generate a single Bazel package with 1000 TypeScript modules. 999 of these modules will be imported by `src/index.ts`.
+
 #### Profiling `tsc_wrapped`
 
 You can find `tsc_wrapped.js` under: `bazel-out/host/bin/external/build_bazel_rules_typescript/@bazel/typescript/tsc_wrapped.runfiles/__main__/external/npm/node_modules/@bazel/typescript/internal/tsc_wrapped/`.
