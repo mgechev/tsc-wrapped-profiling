@@ -6,7 +6,7 @@ This repository provides a sample playground which can be used for profiling of 
 
 ```
 git clone git@github.com:mgechev/ibazel-benchmark
-cd ibazel-benchmark && npm i
+cd ibazel-benchmark && yarn
 npm i -g @bazel/ibazel
 ```
 
