@@ -28,6 +28,8 @@ To enable debug mode in `tsc_wrapped`, set the `DEBUG` flag in `worker.js` to `t
 
 The compilation of the package happens in `runFromOptions`. Using `const time = Date.now(); ... console.error(Date.now() - time);` you can profile how long the individual statements of the function take to execute.
 
+**For better accuracy you can use `const { performance } = require('perf_hooks'); performance.now()`**. `perf_hooks` was introduced by Node v8.5.0.
+
 Once you've added the necessary time markers, to start an incremental build run:
 
 ```
