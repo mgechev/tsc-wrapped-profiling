@@ -1,4 +1,4 @@
-# ibazel profiling
+# tsc-wrapped profiling
 
 This repository provides a sample playground which can be used for profiling of ibazel with `tsc-wrapped`.
 
